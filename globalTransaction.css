@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-segoe-ui: "Segoe UI";
+  --font-pacifico: Pacifico;
+
+  /* font sizes */
+  --font-size-7xl-8: 26.8px;
+  --font-size-3xl-2: 22.2px;
+
+  /* Colors */
+  --color-gray-100: #878787;
+  --bg-sec: #1a1c22;
+  --bg-sec2: #282c35;
+  --white: #fff;
+  --text-10: #9e9e9e;
+  --sec-100: #ffc01e;
+
+  /* Border radiuses */
+  --br-7xs-3: 5.3px;
+}

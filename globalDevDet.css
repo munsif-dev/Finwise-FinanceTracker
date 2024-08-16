@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+  --font-pacifico: Pacifico;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+  --font-size-lgi-7: 19.7px;
+  --font-size-3xl-2: 22.2px;
+
+  /* Colors */
+  --bg-sec: #1a1c22;
+  --bg-sec2: #282c35;
+  --color-darkgray-100: #adadad;
+  --text-10: #9e9e9e;
+  --white: #fff;
+  --sec-100: #ffc01e;
+
+  /* Border radiuses */
+  --br-7xs-3: 5.3px;
+}

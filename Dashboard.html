@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./globalDashboard.css" />
+    <link rel="stylesheet" href="./Dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+    />
+    <script src="timeandDate.js"></script>
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="ui">
+        <div class="sidebar">
+          <div class="sidebar-child"></div>
+          <div class="bg"></div>
+          <div class="dashboard1">Dashboard</div>
+          <a href="Income.html" class="income"> Income</a>
+          <a href="Expenses.html" class="expenses">Expenses</a>
+          <a href="Transaction.html" class="transactions">Transactions</a>
+          <a href="Homepage.html" class="profile">profile</a>
+          <a href="DevDet.html" class="settings">Settings</a>
+
+         
+          
+          <img class="iconelement-3" alt="" src="./public/iconelement3.svg" />
+
+          <img class="sidebar-item" alt="" src="./public/group-138w.svg" />
+
+          <img class="sidebar-inner" alt="" src="./public/group-137 copy.svg" />
+
+          <img class="iconsetting-2" alt="" src="./public/iconsetting2.svg" />
+        </div>
+        <div class="header">
+          <div class="dashboard2">Dashboard</div>
+          <div class="user-account">
+            <img class="photo-icon" alt="" src="./public/photo@2x.png" />
+
+            <div class="icon">
+              <img
+                class="icon-notification"
+                alt=""
+                src="./public/icon--notification.svg"
+              />
+            </div>
+          </div>
+          <div class="search-bar">
+            <div class="search-bar-child"></div>
+            <img
+              class="iconsearch-normal"
+              alt=""
+              src="./public/iconsearchnormal.svg"
+            />
+
+            <div class="search">Search...</div>
+          </div>
+        </div>
+        <div class="finwise">Finwise</div>
+        <img class="ui-child" alt="" src="./public/group-177.svg" />
+
+        <img class="iconuser" alt="" src="./public/iconuser.svg" />
+
+        <div class="ui-inner">
+          <div class="rectangle-parent">
+            <div class="frame-child"></div>
+            <div class="legend-area">
+              <div class="header1">
+                <div class="legend"></div>
+                <div class="label">Status</div>
+                <div class="issues">Issues</div>
+                <div class="issues">%</div>
+              </div>
+              <div class="divider">
+                <img class="divider-icon" alt="" src="./public/divider.svg" />
+              </div>
+              <div class="row">
+                <div class="legend1"></div>
+                <div class="label1">Income</div>
+                <div class="value">$99,100</div>
+                <div class="value">100%</div>
+              </div>
+              <div class="row1">
+                <div class="legend2"></div>
+                <div class="label2">Balance</div>
+                <div class="issues">$46,210</div>
+                <div class="issues">46.62%</div>
+              </div>
+              <div class="row1">
+                <div class="legend3"></div>
+                <div class="label2">Expenses</div>
+                <div class="issues">$31,200</div>
+                <div class="issues">31.48%</div>
+              </div>
+              <div class="row1">
+                <div class="legend4"></div>
+                <div class="label4">Transaction</div>
+                <div class="issues">$21,690</div>
+                <div class="issues">21.88%</div>
+              </div>
+            </div>
+            <img class="chart-icon" alt="" src="./public/chart@2x.png" />
+          </div>
+        </div>
+        <div class="credit-card">
+          <img class="bg-icon" alt="" src="./public/bg.svg" />
+
+          <div class="heading">Date & Time</div>
+          <img
+            class="credit-card-child"
+            alt=""
+            src="./public/group-172@2x.png"
+          />
+          <div class="credit-card-child2" id="currentDateTime"></div>
+
+        </div>
+      </div>
+      <div class="income1">
+        <div class="income-child"></div>
+        <div class="title">Income</div>
+        <div class="amount">$99,100.00</div>
+        <img class="income-item" alt="" src="./public/group-138.svg" />
+      </div>
+      <div class="balance">
+        <div class="income-child"></div>
+        <div class="title">Balance</div>
+        <div class="amount1">$46,210.00</div>
+        <img class="balance-item" alt="" src="./public/group-137.svg" />
+      </div>
+      <div class="expenses1">
+        <div class="income-child"></div>
+        <div class="title">Expenses</div>
+        <div class="amount2">$31,200.00</div>
+        <img class="expenses-item" alt="" src="./public/group-139.svg" />
+      </div>
+      <div class="savings">
+        <div class="income-child"></div>
+        <div class="title">Transaction</div>
+        <div class="amount3">$21,690.00</div>
+        <img class="savings-item" alt="" src="./public/group-178.svg" />
+      </div>
+      <div class="recent-transaction">
+        <div class="recent-transaction1"></div>
+        <div class="heading1">Recent Transaction</div>
+        <div class="button">See all</div>
+        <div class="border"></div>
+        <div class="border1"></div>
+        <div class="border2"></div>
+        <div class="row4">
+          <div class="row-message">
+            <div class="full-name">Olivia Datsun</div>
+            <div class="amount4">Tranfers from</div>
+          </div>
+          <div class="div">+$54.08</div>
+        </div>
+        <div class="row5">
+          <div class="row-message1">
+            <div class="avatar">
+              <img class="photo-icon1" alt="" src="./public/photo@2x copy.png" />
+            </div>
+            <div class="full-name1">Floyd Miles</div>
+            <div class="amount5">Tranfers to</div>
+          </div>
+          <div class="div1">-$39.65</div>
+        </div>
+        <div class="row6">
+          <div class="row-message1">
+            <div class="avatar">
+              <img class="photo-icon1" alt="" src="./public/Photo 1.png" />
+            </div>
+            <div class="full-name1">Jerome Bell</div>
+            <div class="amount5">Tranfers to</div>
+          </div>
+          <div class="div1">-$29.78</div>
+        </div>
+        <div class="row7">
+          <div class="row-message1">
+            <div class="avatar">
+              <img class="photo-icon1" alt="" src="./public/photo 2.png" />
+            </div>
+            <div class="full-name1">Ralph Edwards</div>
+            <div class="amount5">Tranfers to</div>
+          </div>
+          <div class="div1">-$46.61</div>
+        </div>
+        <img class="photo-icon4" alt="" src="./public/photo@2x.png" />
+      </div>
+      <div class="activity">
+        <div class="activity-child"></div>
+        <div class="tip">
+          <div class="earning">Earning</div>
+          <div class="tip-child"></div>
+        </div>
+        <div class="tip1">
+          <div class="tip-item"></div>
+          <div class="earning">Spent</div>
+        </div>
+        <div class="heading2">Activity</div>
+        <div class="months">
+          <div class="text">Mo</div>
+          <div class="text">Tu</div>
+          <div class="text">We</div>
+          <div class="text">Th</div>
+          <div class="text">Fr</div>
+          <div class="text">Sa</div>
+          <div class="text">Su</div>
+        </div>
+        <div class="value4">
+          <div class="amount8">$3k</div>
+          <div class="amount9">$2k</div>
+          <div class="amount10">$1k</div>
+          <div class="amount11">0</div>
+        </div>
+        <img class="line-icon" alt="" src="./public/line.svg" />
+
+        <div class="graphs">
+          <div class="rectangle-group">
+            <div class="group-child"></div>
+            <div class="group-item"></div>
+            <div class="group-inner"></div>
+            <div class="rectangle-div"></div>
+            <div class="group-child1"></div>
+            <div class="group-child2"></div>
+            <div class="group-child3"></div>
+          </div>
+          <div class="rectangle-container">
+            <div class="group-child4"></div>
+            <div class="group-child5"></div>
+            <div class="group-child6"></div>
+            <div class="group-child7"></div>
+            <div class="group-child8"></div>
+            <div class="group-child9"></div>
+            <div class="group-child10"></div>
+          </div>
+        </div>
+      </div>
+      <div class="credit-card1">
+        <img class="bg-icon1" alt="" src="./public/bg.svg" />
+
+        <div class="heading3">Credit Card</div>
+        <div class="group-div">
+          <div class="group-child11"></div>
+          <img class="group-icon" alt="" src="./public/group-14@2x.png" />
+
+          <div class="amount12">3475 7381 3759 ****</div>
+          <div class="logo">LOGO</div>
+          <div class="rectangle-wrapper">
+            <div class="frame-item"></div>
+          </div>
+          <div class="usd-parent">
+            <div class="usd">46,210 USD</div>
+            <div class="total-blancae">TOTAL BLANCAE</div>
+          </div>
+          <div class="exp-date-parent">
+            <div class="exp-date">EXP. DATE</div>
+            <div class="div4">04 / 24</div>
+          </div>
+        </div>
+        <div class="rectangle-parent1">
+          <div class="group-child12"></div>
+          <div class="div5">+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

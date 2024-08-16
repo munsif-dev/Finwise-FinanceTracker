@@ -1,0 +1,528 @@
+.bg,
+.yellow-bar {
+  position: absolute;
+}
+.yellow-bar {
+  top: 626.46px;
+  left: 261.43px;
+  border-radius: 5.27px 0 0 5.27px;
+  background-color: var(--sec-100);
+  width: 8.43px;
+  height: 25.3px;
+}
+.bg {
+  top: 0;
+  left: 0;
+  width: 269.87px;
+  height: 1300.84px;
+}
+.dashboard,
+.expenses,
+.income,
+.profile,
+.settings,
+.transactions {
+  text-decoration: none;
+  color: inherit;
+  position: absolute;
+  top: 188.8px;
+  left: 75.52px;
+  display: flex;
+  align-items: center;
+  width: 134.38px;
+  height: 27.76px;
+}
+.expenses,
+.income,
+.profile,
+.settings,
+.transactions {
+  top: 275.42px;
+  width: 89.96px;
+}
+.expenses,
+.profile,
+.settings,
+.transactions {
+  top: 363.15px;
+  left: 73.3px;
+  width: 121.05px;
+  height: 26.65px;
+}
+.profile,
+.settings,
+.transactions {
+  top: 449.78px;
+  left: 75.52px;
+  width: 158.81px;
+}
+.profile,
+.settings {
+  top: 536.4px;
+  width: 77.74px;
+  height: 27.76px;
+}
+.settings {
+  top: 623.03px;
+  left: 73.3px;
+  width: 102.17px;
+}
+.dashboard-icon {
+  position: absolute;
+  top: 192.13px;
+  left: 27.76px;
+  width: 25.3px;
+  height: 25.3px;
+}
+.expensesicon,
+.iconsetting-2,
+.income-icon {
+  position: absolute;
+  top: 266.53px;
+  left: 19.99px;
+  width: 44.39px;
+  height: 44.39px;
+}
+.expensesicon,
+.iconsetting-2 {
+  top: 354.27px;
+  left: 21.1px;
+}
+.iconsetting-2 {
+  height: 2.88%;
+  width: 11.52%;
+  top: 57.61%;
+  right: 78.19%;
+  bottom: 39.51%;
+  left: 10.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sidebar,
+.transaction-icon {
+  position: absolute;
+  top: 445.34px;
+  left: 25.54px;
+  width: 36.99px;
+  height: 35.86px;
+}
+.sidebar {
+  top: -12.22px;
+  left: 0;
+  background-color: var(--bg-sec);
+  width: 269.87px;
+  height: 1079.47px;
+  font-size: 22.21px;
+  font-family: var(--font-poppins);
+}
+.settings1 {
+  position: absolute;
+  top: 27.76px;
+  left: 156.59px;
+  font-weight: 600;
+}
+.photo-icon {
+  position: absolute;
+  width: 46.39%;
+  top: calc(50% - 20.36px);
+  right: 0;
+  left: 53.61%;
+  border-radius: 15.98px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 40.72px;
+  object-fit: cover;
+}
+.icon,
+.icon-notification {
+  width: 23.01px;
+  position: relative;
+  height: 23.01px;
+}
+.icon {
+  position: absolute;
+  width: 27.46%;
+  top: calc(50% - 12.05px);
+  right: 72.54%;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-account {
+  position: absolute;
+  width: 7.38%;
+  top: calc(50% - 19.99px);
+  right: 2.84%;
+  left: 89.78%;
+  height: 40.72px;
+}
+.search-bar-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 7.67px;
+  background-color: var(--bg-sec2);
+  width: 247.32px;
+  height: 38.34px;
+}
+.iconsearch-normal {
+  position: absolute;
+  height: 45%;
+  width: 6.98%;
+  top: 27.5%;
+  right: 5.81%;
+  bottom: 27.5%;
+  left: 87.21%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.search,
+.search-bar {
+  position: absolute;
+  top: 11.5px;
+  left: 14.38px;
+}
+.search-bar {
+  top: 23.97px;
+  left: 744.84px;
+  width: 247.32px;
+  height: 38.34px;
+  font-size: 11.5px;
+  color: var(--text-10);
+}
+.header {
+  position: absolute;
+  width: 82.78%;
+  top: 0;
+  right: 0.01%;
+  left: 17.21%;
+  background-color: var(--bg-sec);
+  height: 86.62px;
+  font-size: 23.01px;
+  font-family: var(--font-poppins);
+}
+.finwise,
+.search-bar1 {
+  position: absolute;
+  top: 231.07px;
+  left: 781.84px;
+  width: 360.93px;
+  height: 55.96px;
+}
+.finwise {
+  top: 10px;
+  left: 2.22px;
+  font-size: 51.87px;
+  font-family: var(--font-pacifico);
+  color: #769b8a;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240.23px;
+  height: 87.73px;
+}
+.iconuser {
+  position: absolute;
+  height: 2.26%;
+  width: 1.58%;
+  top: 53.62%;
+  right: 96.13%;
+  bottom: 44.12%;
+  left: 2.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.account-settings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--color-darkgray-100);
+}
+.edit-profile,
+.group-child {
+  position: absolute;
+  top: 1.03px;
+  left: 0;
+}
+.group-child {
+  height: 100%;
+  width: 7.27%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 92.73%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.edit-profile-parent {
+  position: absolute;
+  top: 56.89px;
+  left: 0;
+  width: 361.67px;
+  height: 26.24px;
+}
+.change-password,
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.group-item {
+  height: 99.69%;
+  width: 7.27%;
+  top: 0.31%;
+  right: 0;
+  bottom: 0;
+  left: 92.73%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.change-password-parent {
+  position: absolute;
+  top: 121.36px;
+  left: 0;
+  width: 361.67px;
+  height: 26.32px;
+}
+.add-a-payment {
+  position: absolute;
+  top: 3.18px;
+  left: 0;
+}
+.account-settings-parent,
+.add-a-payment-method-parent {
+  position: absolute;
+  top: 182.66px;
+  left: 0;
+  width: 361.67px;
+  height: 26.24px;
+}
+.account-settings-parent {
+  top: 187.69px;
+  left: 387.59px;
+  height: 208.89px;
+  font-size: 19.67px;
+}
+.about-us {
+  position: absolute;
+  top: 0.97px;
+  left: 0;
+}
+.about-us-parent,
+.group-child1 {
+  position: absolute;
+  top: 59px;
+  left: 0;
+  width: 367.52px;
+  height: 26.66px;
+}
+.group-child1 {
+  height: 99.41%;
+  width: 7.27%;
+  top: 0.59%;
+  right: 0;
+  bottom: 0;
+  left: 92.73%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child2,
+.privacy-policy-parent {
+  position: absolute;
+  top: 121.05px;
+  left: 0;
+  width: 367.52px;
+  height: 26.82px;
+}
+.group-child2 {
+  height: 99.35%;
+  width: 7.27%;
+  top: 0.65%;
+  right: 0;
+  bottom: 0;
+  left: 92.73%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.more-parent,
+.terms-and-conditions-parent {
+  position: absolute;
+  top: 183.24px;
+  left: 0;
+  width: 367.52px;
+  height: 26.84px;
+}
+.more-parent {
+  top: 468.66px;
+  left: 387.59px;
+  height: 210.08px;
+  font-size: 19.99px;
+}
+.ui-child,
+.ui-item {
+  position: absolute;
+  border-radius: 50%;
+}
+.ui-child {
+  top: 278px;
+  left: 972px;
+  width: 53px;
+  height: 52px;
+  object-fit: cover;
+}
+.ui-item {
+  top: 457.94px;
+  left: 927.32px;
+  width: 121.05px;
+  height: 119.56px;
+}
+.ellipse-icon,
+.ui-inner {
+  position: absolute;
+  top: 192.13px;
+  left: 855.13px;
+  width: 0;
+  height: 580.82px;
+  object-fit: contain;
+}
+.ellipse-icon {
+  top: 568px;
+  left: 972px;
+  border-radius: 50%;
+  width: 51.14px;
+  height: 51.14px;
+  object-fit: cover;
+}
+.munsif-mfa {
+  margin: 0;
+}
+.munsif-mfa-eg20214684-container {
+  position: absolute;
+  top: 346px;
+  left: 972px;
+  color: var(--color-darkgray-100);
+  display: inline-block;
+  width: 165px;
+}
+.lareef-mj-eg20214644-container {
+  position: absolute;
+  top: 628px;
+  left: 972px;
+  color: var(--color-darkgray-100);
+}
+.desktop-2,
+.ui {
+  position: absolute;
+  height: 92.73%;
+  width: 95.4%;
+  top: 2.55%;
+  right: 4.6%;
+  bottom: 4.72%;
+  left: 0;
+  background-color: var(--bg-sec2);
+  overflow: hidden;
+}
+.desktop-2 {
+  height: 103.42%;
+  width: 104.98%;
+  top: -2.73%;
+  right: -4.98%;
+  bottom: -0.68%;
+  background-color: var(--bg-sec);
+}
+.group-child3,
+.group-child4 {
+  width: 16.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child3 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 83.33%;
+  bottom: 0;
+  left: 0;
+}
+.group-child4 {
+  right: 55.56%;
+  left: 27.78%;
+}
+.group-child4,
+.group-child5,
+.group-child6,
+.group-parent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.group-child5 {
+  width: 16.67%;
+  right: 27.78%;
+  left: 55.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child6,
+.group-parent {
+  right: 0;
+}
+.group-child6 {
+  width: 16.67%;
+  left: 83.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent {
+  width: 100%;
+  left: -65px;
+}
+.developerdetials-child,
+.developerdetials-inner {
+  position: absolute;
+  height: 2.25%;
+  width: 9.81%;
+  top: 43.26%;
+  right: 21.11%;
+  bottom: 54.49%;
+  left: 69.08%;
+}
+.developerdetials-child {
+  top: 70.8%;
+  bottom: 26.95%;
+}
+.developerdetials {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--white);
+  font-family: var(--font-rubik);
+}
+
+.dashboard:hover,
+.expenses:hover,
+.income:hover,
+.profile:hover,
+.settings:hover ,
+.transactions:hover {
+  background-color: #04465a;
+}
+
